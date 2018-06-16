@@ -8,19 +8,11 @@
     android:orientation="horizontal"
     tools:context=".Activities.MainActivity">
 
-    <fragment
-        android:id="@+id/left"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight=".5"
-        class="zaratedev.list.shopping.com.shoppinglist.Fragments.LeftFragment"
-        />
 
-    <fragment
-        android:id="@+id/fragment_right"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight=".5"
-        class="zaratedev.list.shopping.com.shoppinglist.Fragments.RightFragment"
-        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Hello World" />
 </LinearLayout>
